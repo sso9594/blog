@@ -1,6 +1,7 @@
 ---
 title: "JWT_Login"
 date: 2023-08-10T22:19:23+09:00
+tags: ["Tech", "JWT","spring boot"]
 ---
 
 # JWT 토큰 기반 로그인 인증 시스템

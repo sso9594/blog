@@ -6,26 +6,26 @@
 # https://blowfish.page/docs/configuration/#theme-parameters
 
 colorScheme = "blowfish"
-defaultAppearance = "light" # valid options: light or dark
+defaultAppearance = "dark" # valid options: light or dark
 autoSwitchAppearance = true
 
 enableSearch = true
-enableCodeCopy = false
+enableCodeCopy = true
 
 # mainSections = ["section1", "section2"]
 # robots = ""
 
-disableImageOptimization = true
+disableImageOptimization = false
 
-# defaultBackgroundImage = "IMAGE.jpg" # used as default for background images 
-# defaultFeaturedImage = "IMAGE.jpg" # used as default for featured images in all articles
+defaultBackgroundImage = "/ocean.jpg"
+defaultFeaturedImage = "/ocean.jpg"
 
-# highlightCurrentMenuArea = true
-# smartTOC = true
-# smartTOCHideUnfocusedChildren = true
+highlightCurrentMenuArea = true
+smartTOC = true
+smartTOCHideUnfocusedChildren = true
 
 [header]
-  layout = "basic" # valid options: basic, fixed, fixed-fill, fixed-fill-blur
+  layout = "fixed" # valid options: basic, fixed, fixed-fill, fixed-fill-blur
 
 [footer]
   showMenu = true
@@ -35,23 +35,23 @@ disableImageOptimization = true
   showScrollToTop = true
 
 [homepage]
-  layout = "profile" # valid options: page, profile, hero, card, background, custom
-  #homepageImage = "IMAGE.jpg" # used in: hero, and card
-  showRecent = false
+  layout = "hero" # valid options: page, profile, hero, card, background, custom
+  homepageImage = "/ocean.jpg" # used in: hero, and card
+  showRecent = true
   showRecentItems = 5
   showMoreLink = false
-  showMoreLinkDest = "/posts"
+  showMoreLinkDest = "/blog"
   cardView = false
   cardViewScreenWidth = false
   layoutBackgroundBlur = false # only used when layout equals background
 
 [article]
   showDate = true
-  showViews = false
+  showViews = true
   showLikes = false
   showDateUpdated = false
   showAuthor = true
-  showHero = false
+  showHero = true
   # heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
@@ -98,7 +98,7 @@ disableImageOptimization = true
   showHero = false
   # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   showBreadcrumbs = false
-  showViews = false
+  showViews = true
   showLikes = false
   showTableOfContents = false
   cardView = false

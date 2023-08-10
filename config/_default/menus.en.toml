@@ -37,9 +37,9 @@
   weight = 10
 
 [[subnavigation]]
-  name = "My Awesome Category"
+  name = "My Github"
   pre = "github"
-  pageRef = "categories/awesome"
+  url = "https://github.com/sso9594"
   weight = 20
 
 [[main]]

@@ -1,9 +1,5 @@
 ---
-title: "My First Blog Post"
-date: 2023-08-10
-description: "Welcome to my blog!"
-summary: "Learn more about me and why I am starting this blog."
-tags: ["welcome", "new", "about", "first"]
+title: "First"
+date: 2023-08-10T22:17:10+09:00
 ---
-_This_ is the content of my blog post.
 
